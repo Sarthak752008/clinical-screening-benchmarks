@@ -1,0 +1,7 @@
+experiment:
+  name: multicenter_ocular_eval
+  batch_size: 16
+  target_modalities:
+    - anemia_hb
+    - conjunctivitis
+    - cataract
