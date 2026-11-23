@@ -9,3 +9,6 @@ def compute_sensitivity(tp, fn):
 
 def compute_specificity(tn, fp):
     return tn / (tn + fp) if (tn + fp) > 0 else 0.0
+
+def safe_divide(numerator, denominator, fallback=0.0):
+    return numerator / denominator if denominator != 0 else fallback
