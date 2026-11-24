@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: 'If you use these benchmark protocols, please cite as below.'
+title: 'Clinical Screening Benchmarks for Non-Invasive Ocular AI'
+authors:
+  - family-names: Sharma
+    given-names: Sarthak
